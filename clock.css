@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font:bold 12px Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg,#08001f, #30197d); 
+}
+.clock{
+    border: 1px solid #606060;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient( to right, pink 1%,blue 100% );
+    filter: drop-shadow(15px 15px 5px #e04646);
+}
+#Date{
+    font-size: 20px !important;
+    text-align: center;
+}
+.clock ul{
+    list-style: none;
+    display: flex;
+    font-size: 90px;
+    gap: 15px;
+}
+h1{
+    margin:top;
+}
